@@ -11,11 +11,20 @@ xanda_0000_movie_processing?
 (For this and future questions, the first 5 characters is plenty - neither
 Git nor I need the whole SHA.)
 
+ The SHA for this branch is 9b257.
+
 2. What is the SHA for the last commit associated with line 9 of this file?
+
+The SHA for line 9 of this file was b2ed3
 
 3. What did line 12 of this file say in commit d1d83?
 
+Line 12 said: 2. I should really finish writing this.
+
 4. What changed between commit e474c and 82045?
+
+Between e474c and 82045 changes were made to the function find_top_5 in movie_data.py. gross_sort was updated to turning it into an int, and top_five was updated to actually show 5 values. 
+
 
 ## Predicting merges
 
