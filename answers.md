@@ -45,7 +45,9 @@ What branches would change, and how?
 ```
 git checkout test
 git merge top_N
+
 ```
+The function will change from top_5 to top_N in test 
 
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -54,6 +56,8 @@ git checkout top_ten
 git merge test
 ```
 
+The quiz.md will change to answers.md in top_ten
+
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
@@ -61,3 +65,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+The first rebase will work correctly, changing top_5 to top_10. However, the second rebase has some changes between top_N and top_10 because there is a different commit that the first commit isn't aware of. Then, after editing the files where different changes and commits were made, then going back into git log, now both changes are shown in the log as test is aware of both things happening. 
